@@ -1,2 +1,3 @@
-# goit-markup-hw-02
-Homework-2
+# goit-markup-hw-03
+
+Задать всем секциям размер 1230
