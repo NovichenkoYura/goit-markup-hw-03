@@ -289,3 +289,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
+/* border-box */
+
+/* html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
