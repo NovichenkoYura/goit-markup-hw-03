@@ -21,6 +21,8 @@ body {
 /* Служебные стили */
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .link {
@@ -106,6 +108,8 @@ body {
 
 .hero {
   background: var(--secondary-background-color);
+  text-align: center;
+  outline: 2px rgb(128, 0, 28);
 }
 
 .hero-title {
@@ -117,6 +121,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  /* padding: 200px 452px 280px; */
+  outline: 2px tomato;
+  margin-bottom: 30px;
 }
 
 /* Преимущества */
@@ -188,6 +195,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   border: 1px transparent;
+  margin: 200px;
 }
 
 .hero-title .button:hover,
