@@ -222,6 +222,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: orange;
+  margin-bottom: 10px;
 }
 
 .team-title {
@@ -240,6 +241,11 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: blue;
+  margin-bottom: 30px;
+}
+
+.team-image {
+  margin-bottom: 30;
 }
 
 /* Button */
@@ -287,6 +293,7 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .footer .logo-accent {
@@ -300,6 +307,7 @@ ul {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--white);
+  margin-bottom: 9px;
 }
 
 .footer-email {
@@ -309,6 +317,7 @@ ul {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+  margin-bottom: 9px;
 }
 
 .footer-tel {
@@ -318,6 +327,11 @@ ul {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+
+.footer.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Портфолио */
