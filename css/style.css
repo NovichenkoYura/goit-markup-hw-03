@@ -29,6 +29,23 @@ body {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Site-nav */
 
 .logo-accent {
@@ -129,11 +146,20 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /* padding: 200px 452px 280px; */
+  margin-top: 200px;
   margin-bottom: 30px;
-  padding-top: 200px;
+  background-color: hotpink;
+}
+
+.hero.container {
+  background-color: lawngreen;
 }
 
 /* Преимущества */
+
+.section.advantages {
+  background-color: lightsalmon;
+}
 
 .advantages .discription {
   color: var(--secondary-text-color);
@@ -147,9 +173,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  padding-top: 94px;
-  margin-top: 0px;
+  /* margin-top: 94px; */
   margin-bottom: 10px;
+  background-color: magenta;
 }
 
 .advantages .discription {
@@ -161,9 +187,14 @@ body {
   color: var(--secondary-text-color);
   margin-top: 0px;
   margin-bottom: 94px;
+  background-color: mediumblue;
 }
 
 /* about */
+
+.section.about {
+  background-color: mediumpurple;
+}
 
 .about .section-title {
   margin-top: 0px;
@@ -174,8 +205,8 @@ body {
 
 .about .list {
   background-color: green;
-  /* padding-bottom: 94px; */
-  margin-bottom: 94px;
+  /* padding-bottom: 94px;
+  margin-bottom: 94px; */
 }
 /* Team */
 
@@ -190,6 +221,12 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: orange;
+}
+
+.team-title {
+  background-color: turquoise;
+  margin-bottom: 50px;
 }
 
 .role {
@@ -202,6 +239,7 @@ body {
 
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: blue;
 }
 
 /* Button */
@@ -219,9 +257,9 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
-  padding: 10px 32px;
   border: 1px transparent;
-  margin: 200px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
 }
 
 .hero-title .button:hover,
