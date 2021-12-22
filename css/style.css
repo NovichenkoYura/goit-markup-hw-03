@@ -54,6 +54,14 @@ img {
   padding-bottom: 94px;
 }
 
+/* Header */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 0px;
+}
+
 /* Site-nav */
 
 .logo-accent {
@@ -73,8 +81,6 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .site-nav .link {
@@ -83,8 +89,6 @@ img {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 
 .site-nav .link {
@@ -114,8 +118,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
 
 .header-adress .adress-link.current {
@@ -142,6 +144,8 @@ img {
 .hero {
   background: var(--secondary-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -153,10 +157,8 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* padding: 200px 452px 280px; */
-  margin-top: 200px;
-  margin-bottom: 30px;
   background-color: hotpink;
+  margin-bottom: 30px;
 }
 
 /* Преимущества */
@@ -177,7 +179,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  /* margin-top: 94px; */
   margin-bottom: 10px;
   background-color: magenta;
 }
@@ -190,7 +191,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 0px;
-  margin-bottom: 94px;
   background-color: mediumblue;
 }
 
@@ -198,19 +198,16 @@ img {
 
 .section.about {
   background-color: mediumpurple;
+  padding-top: 0px;
 }
 
 .about .section-title {
-  margin-top: 0px;
   margin-bottom: 50px;
-  padding-top: 0px;
-  padding-bottom: 00px;
+  padding-bottom: 0px;
 }
 
 .about .list {
   background-color: green;
-  /* padding-bottom: 94px;
-  margin-bottom: 94px; */
 }
 /* Team */
 
@@ -222,7 +219,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   background-color: orange;
@@ -245,11 +241,16 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: blue;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .team-image {
-  margin-bottom: 30;
+  /* margin-bottom: 30; */
+}
+
+.name-role {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Button */
@@ -269,7 +270,6 @@ img {
   border-radius: 4px;
   border: 1px transparent;
   padding: 10px 32px;
-  margin-bottom: 200px;
 }
 
 .hero-title .button:hover,
@@ -282,6 +282,8 @@ img {
 
 .footer {
   background: var(--secondary-background-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer .link:hover,
@@ -331,11 +333,6 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-}
-
-.footer.container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* Портфолио */
