@@ -373,6 +373,7 @@ img {
 
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-type {
@@ -384,16 +385,14 @@ img {
   color: var(--secondary-text-color);
 }
 
-/* border-box */
-
-/* html {
-  box-sizing: border-box;
+.portfolio-filter {
+  margin-bottom: 50px;
 }
 
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
+.portfolio-short {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .container {
   margin-left: auto;
