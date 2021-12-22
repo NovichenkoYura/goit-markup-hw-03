@@ -8,6 +8,10 @@
   --third-background-color: #f5f4fa;
 }
 
+/* * {
+  box-sizing: border-box;
+} */
+
 /* Основной цвет текста  #212121*/
 /* Вспомогательный цвет текста  #757575 rgba(255, 255, 255, 0.6) */
 
@@ -39,6 +43,10 @@ p,
 ul {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+img {
+  display: block;
 }
 
 .section {
@@ -149,10 +157,6 @@ ul {
   margin-top: 200px;
   margin-bottom: 30px;
   background-color: hotpink;
-}
-
-.hero.container {
-  background-color: lawngreen;
 }
 
 /* Преимущества */
@@ -397,7 +401,7 @@ ul {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
