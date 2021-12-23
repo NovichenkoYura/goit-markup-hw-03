@@ -249,7 +249,10 @@ img {
 
 .about .list {
   background-color: green;
+  display: flex;
+  justify-content: space-between;
 }
+
 /* Team */
 
 .team {
