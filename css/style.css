@@ -210,6 +210,7 @@ img {
 
 .advantages .discription {
   color: var(--secondary-text-color);
+  max-width: 270px;
 }
 
 .advantage-item {
@@ -233,6 +234,11 @@ img {
   color: var(--secondary-text-color);
   margin-top: 0px;
   background-color: mediumblue;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: row;
 }
 
 /* about */
@@ -296,6 +302,20 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.team-card {
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+/* .team-card:not(:last-child) {
+  margin-right: 30px;
+} */
 
 /* Button */
 .button {
@@ -445,4 +465,17 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.portfolio-li {
+  width: calc(100% / 9 -30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
