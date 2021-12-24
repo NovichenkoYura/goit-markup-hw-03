@@ -493,7 +493,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .portfolio-list {
@@ -504,7 +504,7 @@ img {
 }
 
 .portfolio-li {
-  width: calc(100% / 9 -30px);
+  flex-basis: calc(100% / 9 -30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
