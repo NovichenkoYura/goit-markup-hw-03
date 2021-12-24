@@ -6,6 +6,7 @@
   --white: #ffffff;
   --secondary-background-color: #2f303a;
   --third-background-color: #f5f4fa;
+  --card-set-gap: 30px;
 }
 
 /* * {
@@ -499,14 +500,14 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
+  margin-left: calc(-1 * var(--card-set-gap));
   margin-bottom: -30px;
 }
 
 .portfolio-li {
   flex-basis: calc(100% / 9 -30px);
-  margin-left: 30px;
-  margin-bottom: 30px;
+  margin-left: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
 }
 
 .filter-list {
