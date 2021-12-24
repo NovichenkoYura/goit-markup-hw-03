@@ -479,6 +479,7 @@ img {
 
 .portfolio-filter {
   margin-bottom: 50px;
+  margin-left: -8px;
 }
 
 .portfolio-short {
@@ -506,4 +507,10 @@ img {
   width: calc(100% / 9 -30px);
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 8px;
 }
