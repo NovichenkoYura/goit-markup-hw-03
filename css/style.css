@@ -173,7 +173,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-top: 0px;
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 /* Hero */
@@ -197,7 +197,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: hotpink;
+  /* background-color: hotpink; */
   margin-bottom: 30px;
   max-width: 696px;
 }
@@ -205,12 +205,12 @@ img {
 /* Преимущества */
 
 .section.advantages {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
 }
 
 .advantages .discription {
   color: var(--secondary-text-color);
-  max-width: 270px;
+  /* max-width: 270px; */
 }
 
 .advantage-item {
@@ -222,7 +222,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
-  background-color: magenta;
+  /* background-color: magenta; */
 }
 
 .advantages .discription {
@@ -233,18 +233,45 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-top: 0px;
-  background-color: mediumblue;
+  /* background-color: mediumblue; */
 }
 
-.advantages {
+.adv-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.adv-item {
+  /* max-width: 270px; */
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.portfolio-li {
+  width: calc(100% / 9 -30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+} */
+
+/* .advantages {
   display: flex;
   flex-direction: row;
-}
+} */
 
 /* about */
 
 .section.about {
-  background-color: mediumpurple;
+  /* background-color: mediumpurple; */
   padding-top: 0px;
 }
 
@@ -254,7 +281,7 @@ img {
 }
 
 .about .list {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   justify-content: space-between;
 }
@@ -271,12 +298,12 @@ img {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: orange;
+  /* background-color: orange; */
   margin-bottom: 10px;
 }
 
 .team-title {
-  background-color: turquoise;
+  /* background-color: turquoise; */
   margin-bottom: 50px;
 }
 
@@ -290,7 +317,7 @@ img {
 
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: blue;
+  /* background-color: blue; */
   /* margin-bottom: 30px; */
 }
 
@@ -301,6 +328,7 @@ img {
 .name-role {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--white);
 }
 
 .team-list {
