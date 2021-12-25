@@ -106,8 +106,8 @@ img {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .site-nav .link {
@@ -145,8 +145,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .header-adress {
