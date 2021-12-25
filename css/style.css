@@ -95,8 +95,8 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   margin-right: 93px;
 }
 
@@ -184,6 +184,9 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,7 +342,7 @@ img {
 }
 
 .team-card {
-  width: calc(100% / 4 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 /* .team-card:not(:last-child) {
@@ -392,6 +395,10 @@ img {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  /* margin-bottom: 20px; */
+}
+
+.footer-logo {
   margin-bottom: 20px;
 }
 
